@@ -1,0 +1,312 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+}
+
+header {
+    background-color: rgb(245, 241, 235);
+    padding-bottom: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+nav ul {
+    display: flex;
+    padding-top: 20px;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 40px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+nav li a:hover {
+    background-color: gray;
+    padding: 15px 35px;
+    border-radius: 10px;
+}
+
+.head-title h3 {
+    font-size: 25px;
+    padding-top: 20px;
+    margin-left: 40px;
+}
+
+.main {
+    width: 75%;
+    margin: auto;
+}
+
+.container1 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #FF900E;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.btn-primary:hover {
+    background-color: chartreuse;
+    color: rgb(177, 61, 61);
+
+}
+
+.container1 h2 {
+    font-weight: 900;
+    padding: 0px 0px 10px 0px;
+}
+
+.container1 p {
+    padding: 0px 0px 10px 0px;
+}
+
+.container2 {
+    height: 70vh;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 50px;
+
+}
+
+.container2 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.container3 {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    gap: 40px;
+
+}
+
+.image-collage {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 5px;
+}
+
+.image-collage img {
+    height: 100%;
+    width: 100%;
+}
+
+.container4 {
+    display: flex;
+    margin-top: 70px;
+    gap: 60px;
+}
+
+.heading-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+    border-left: 5px solid #FF900E;
+
+}
+
+.heading-title h2 {
+    padding-left: 10px;
+}
+
+.p-div {
+    margin-bottom: 15px;
+    background-color: rgb(216, 248, 248);
+    padding: 5px;
+}
+
+.p-div h3 {
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.experience-badge {
+    background-color: #FF900E;
+    width: 150px;
+    height: 70px;
+    padding: 10px;
+    color: wheat;
+    border-radius: 5px;
+    position: relative;
+    bottom: 50px;
+    right: 10px;
+}
+
+.experience-badge h3 {
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.experience-badge p {
+    text-align: center;
+}
+
+.experience-div img {
+    height: 600px;
+    width: 500px;
+    margin-left: 30px;
+}
+
+.container-5 {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.icon {
+    border: 2px solid #FF900E;
+    padding: 20px;
+}
+.container6 h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 60px;
+}
+.container6 p{
+    text-align: center;
+    margin: 10px 0px;
+}
+.brand-icon{
+    display: flex;
+    gap: 50px;
+    padding: 40px;
+}
+.footer{
+    margin: 100px;
+}
+.footer p{
+    padding: 30px;
+    background-color: bisque;
+    text-align: center;
+}
+7
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    nav {
+        flex-direction: column;
+        width: 100%;
+        margin: 0px auto;
+        text-align: center;
+        align-items: center;
+    }
+
+    .head-title h3 {
+        margin-left: 0px;
+    }
+
+    .container3,
+    .container4,
+    .container-5 {
+        flex-direction: column;
+    }
+    .icon {
+        margin-bottom: 10px;
+    }
+
+    .experience-div img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        margin-left: 0px;
+    }
+
+    .image-collage {
+        display: block;
+        height: 100%;
+        margin-bottom: 20px;
+    }
+
+    .container2 {
+        width: 100%;
+        padding: 0px 20px;
+        object-fit: cover;
+    }
+
+    .container2 img {
+        object-fit: cover;
+    }
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 922px) {
+
+    nav {
+        flex-direction: column;
+        width: 100%;
+        margin: 0px auto;
+        text-align: center;
+        align-items: center;
+    }
+
+    .head-title h3 {
+        margin-left: 0px;
+    }
+
+    .container3,
+    .container4 {
+        flex-direction: column;
+    }
+    .container-5{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .image-collage {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        height: 100%;
+        margin-bottom: 20px;
+    }
+}
